@@ -1,0 +1,118 @@
+.container{
+    margin: 0;
+    display: flex ;   
+    align-content: space-between;
+    perspective: 1000px;
+    flex-direction: column;
+    margin-left: 40%;
+   }
+
+
+.translate{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+    
+    
+}
+
+.translate:hover{
+    transform: translate(0,200px);
+}
+
+
+.scale{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+
+.scale:hover{
+    transform: scale(0.75,0.75);
+}
+
+
+.rotate{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(102, 33, 33);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+    /* transform-origin: 0 0; */
+    transform-origin: 20% 30%;
+}
+
+.rotate:hover{
+    transform: rotate(40deg);
+}
+
+.skew{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(26, 75, 12);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+
+.skew:hover{
+    transform: skew(30deg) ;
+}
+
+
+.transform3d{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(52, 12, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+
+.transform3d:hover{
+    transform: translateZ(300px);
+}
+
+.rotate3d{
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(212, 209, 14);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+
+.rotate3d:hover{
+    transform: rotateX(80deg);
+}
